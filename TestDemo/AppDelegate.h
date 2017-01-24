@@ -1,16 +1,30 @@
+
 //
 //  AppDelegate.h
-//  PCrew
+//  Snapbets
 //
-//  Created by Bhimashankar Vibhute on 06/01/17.
-//  Copyright © 2017 Syneotek Software Solution. All rights reserved.
+//  Created by Bhimashankar Vibhute on 06/09/16.
+//  Copyright © 2016 Syneotek Software Solution. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "ViewController.h"
-#import <UserNotifications/UserNotifications.h>
+#import <CoreData/CoreData.h>
+#import "Reachability.h"
+#import "HeaderAndConstants.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate,UNUserNotificationCenterDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
+@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+
+@property(nonatomic)Reachability *reachbility;
+@property (nonatomic)DBManager *objDBManager;
+
+#pragma mark: BOOL Properties declarations here
+@property(nonatomic)BOOL isConnected;
+
 
 #pragma mark- Activitity Indicator Properties
 @property (nonatomic)UIView *viewForSpinner,*viewForSilentAlert;
@@ -18,11 +32,8 @@
 @property (nonatomic)NSTimer *timerForSpinnerInterval;
 @property(nonatomic)NSInteger intCounterValue;
 
-
 #pragma mark: Methods Declarations Here
 -(void)showSpinnerInView:(UIView*)view;
 -(void)stopSpinner;
-
-@property (strong, nonatomic) UIWindow *window;
 @end
 

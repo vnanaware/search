@@ -15,9 +15,10 @@
 		B071C1571E3716FF005D20F6 /* TestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B071C1561E3716FF005D20F6 /* TestDemoTests.m */; };
 		B071C1621E371702005D20F6 /* TestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B071C1611E371702005D20F6 /* TestDemoUITests.m */; };
 		B071C1711E37171F005D20F6 /* SearchScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = B071C16F1E37171F005D20F6 /* SearchScreen.m */; };
-		B071C1751E37178D005D20F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B071C1741E37178D005D20F6 /* AppDelegate.m */; };
 		B071C1781E3717C5005D20F6 /* WebConnection1.m in Sources */ = {isa = PBXBuildFile; fileRef = B071C1771E3717C5005D20F6 /* WebConnection1.m */; };
 		B071C17B1E3718D9005D20F6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B071C17A1E3718D9005D20F6 /* Reachability.m */; };
+		B071C17E1E371A81005D20F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B071C17D1E371A81005D20F6 /* AppDelegate.m */; };
+		B071C1811E371C00005D20F6 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B071C1801E371C00005D20F6 /* DBManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,12 +56,14 @@
 		B071C16F1E37171F005D20F6 /* SearchScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchScreen.m; sourceTree = "<group>"; };
 		B071C1701E37171F005D20F6 /* SearchScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchScreen.h; sourceTree = "<group>"; };
 		B071C1721E37174B005D20F6 /* HeaderAndConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderAndConstants.h; sourceTree = "<group>"; };
-		B071C1731E37178D005D20F6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B071C1741E37178D005D20F6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B071C1761E3717C5005D20F6 /* WebConnection1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebConnection1.h; sourceTree = "<group>"; };
 		B071C1771E3717C5005D20F6 /* WebConnection1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebConnection1.m; sourceTree = "<group>"; };
 		B071C1791E3718D9005D20F6 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		B071C17A1E3718D9005D20F6 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		B071C17C1E371A81005D20F6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B071C17D1E371A81005D20F6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B071C17F1E371BFF005D20F6 /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		B071C1801E371C00005D20F6 /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,12 +128,14 @@
 		B071C13C1E3716EB005D20F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B071C17F1E371BFF005D20F6 /* DBManager.h */,
+				B071C1801E371C00005D20F6 /* DBManager.m */,
+				B071C17C1E371A81005D20F6 /* AppDelegate.h */,
+				B071C17D1E371A81005D20F6 /* AppDelegate.m */,
 				B071C1791E3718D9005D20F6 /* Reachability.h */,
 				B071C17A1E3718D9005D20F6 /* Reachability.m */,
 				B071C1761E3717C5005D20F6 /* WebConnection1.h */,
 				B071C1771E3717C5005D20F6 /* WebConnection1.m */,
-				B071C1731E37178D005D20F6 /* AppDelegate.h */,
-				B071C1741E37178D005D20F6 /* AppDelegate.m */,
 				B071C1721E37174B005D20F6 /* HeaderAndConstants.h */,
 				B071C16F1E37171F005D20F6 /* SearchScreen.m */,
 				B071C1701E37171F005D20F6 /* SearchScreen.h */,
@@ -291,9 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B071C1751E37178D005D20F6 /* AppDelegate.m in Sources */,
+				B071C1811E371C00005D20F6 /* DBManager.m in Sources */,
 				B071C1441E3716EF005D20F6 /* ViewController.m in Sources */,
 				B071C13E1E3716EB005D20F6 /* main.m in Sources */,
+				B071C17E1E371A81005D20F6 /* AppDelegate.m in Sources */,
 				B071C1781E3717C5005D20F6 /* WebConnection1.m in Sources */,
 				B071C17B1E3718D9005D20F6 /* Reachability.m in Sources */,
 				B071C1711E37171F005D20F6 /* SearchScreen.m in Sources */,
