@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B071C13E1E3716EB005D20F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B071C13D1E3716EB005D20F6 /* main.m */; };
-		B071C1411E3716ED005D20F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B071C1401E3716ED005D20F6 /* AppDelegate.m */; };
 		B071C1441E3716EF005D20F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B071C1431E3716EF005D20F6 /* ViewController.m */; };
 		B071C1471E3716F1005D20F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B071C1451E3716F1005D20F6 /* Main.storyboard */; };
 		B071C1491E3716F6005D20F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B071C1481E3716F6005D20F6 /* Assets.xcassets */; };
@@ -16,6 +15,8 @@
 		B071C1571E3716FF005D20F6 /* TestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B071C1561E3716FF005D20F6 /* TestDemoTests.m */; };
 		B071C1621E371702005D20F6 /* TestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B071C1611E371702005D20F6 /* TestDemoUITests.m */; };
 		B071C1711E37171F005D20F6 /* SearchScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = B071C16F1E37171F005D20F6 /* SearchScreen.m */; };
+		B071C1751E37178D005D20F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B071C1741E37178D005D20F6 /* AppDelegate.m */; };
+		B071C1781E3717C5005D20F6 /* WebConnection1.m in Sources */ = {isa = PBXBuildFile; fileRef = B071C1771E3717C5005D20F6 /* WebConnection1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +39,6 @@
 /* Begin PBXFileReference section */
 		B071C1391E3716EB005D20F6 /* TestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B071C13D1E3716EB005D20F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B071C13F1E3716EC005D20F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B071C1401E3716ED005D20F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B071C1421E3716EE005D20F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B071C1431E3716EF005D20F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B071C1461E3716F1005D20F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +53,11 @@
 		B071C1631E371702005D20F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B071C16F1E37171F005D20F6 /* SearchScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchScreen.m; sourceTree = "<group>"; };
 		B071C1701E37171F005D20F6 /* SearchScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchScreen.h; sourceTree = "<group>"; };
+		B071C1721E37174B005D20F6 /* HeaderAndConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderAndConstants.h; sourceTree = "<group>"; };
+		B071C1731E37178D005D20F6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B071C1741E37178D005D20F6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B071C1761E3717C5005D20F6 /* WebConnection1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebConnection1.h; sourceTree = "<group>"; };
+		B071C1771E3717C5005D20F6 /* WebConnection1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebConnection1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +108,6 @@
 		B071C13B1E3716EB005D20F6 /* TestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B071C13F1E3716EC005D20F6 /* AppDelegate.h */,
-				B071C1401E3716ED005D20F6 /* AppDelegate.m */,
 				B071C1421E3716EE005D20F6 /* ViewController.h */,
 				B071C1431E3716EF005D20F6 /* ViewController.m */,
 				B071C1451E3716F1005D20F6 /* Main.storyboard */,
@@ -120,6 +122,11 @@
 		B071C13C1E3716EB005D20F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B071C1761E3717C5005D20F6 /* WebConnection1.h */,
+				B071C1771E3717C5005D20F6 /* WebConnection1.m */,
+				B071C1731E37178D005D20F6 /* AppDelegate.h */,
+				B071C1741E37178D005D20F6 /* AppDelegate.m */,
+				B071C1721E37174B005D20F6 /* HeaderAndConstants.h */,
 				B071C16F1E37171F005D20F6 /* SearchScreen.m */,
 				B071C1701E37171F005D20F6 /* SearchScreen.h */,
 				B071C13D1E3716EB005D20F6 /* main.m */,
@@ -279,9 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B071C1751E37178D005D20F6 /* AppDelegate.m in Sources */,
 				B071C1441E3716EF005D20F6 /* ViewController.m in Sources */,
-				B071C1411E3716ED005D20F6 /* AppDelegate.m in Sources */,
 				B071C13E1E3716EB005D20F6 /* main.m in Sources */,
+				B071C1781E3717C5005D20F6 /* WebConnection1.m in Sources */,
 				B071C1711E37171F005D20F6 /* SearchScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
