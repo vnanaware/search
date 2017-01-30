@@ -11,6 +11,7 @@
 #import <CoreData/CoreData.h>
 #import "Reachability.h"
 #import "HeaderAndConstants.h"
+#import "DBManager.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
