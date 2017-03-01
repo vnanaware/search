@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B06F03281E66FBFF005076A2 /* VNSessionLib.m in Sources */ = {isa = PBXBuildFile; fileRef = B06F03271E66FBFF005076A2 /* VNSessionLib.m */; };
+		B06F032B1E66FC96005076A2 /* SpecificThemePackgScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = B06F032A1E66FC96005076A2 /* SpecificThemePackgScreen.m */; };
+		B06F03321E66FCAB005076A2 /* IAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B06F032D1E66FCAB005076A2 /* IAPHelper.m */; };
+		B06F03331E66FCAB005076A2 /* InAppPuchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06F032F1E66FCAB005076A2 /* InAppPuchaseViewController.m */; };
+		B06F03341E66FCAB005076A2 /* InAppRageIAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B06F03311E66FCAB005076A2 /* InAppRageIAPHelper.m */; };
+		B06F03371E66FD3F005076A2 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B06F03361E66FD3F005076A2 /* MBProgressHUD.m */; };
 		B071C13E1E3716EB005D20F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B071C13D1E3716EB005D20F6 /* main.m */; };
 		B071C1441E3716EF005D20F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B071C1431E3716EF005D20F6 /* ViewController.m */; };
 		B071C1471E3716F1005D20F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B071C1451E3716F1005D20F6 /* Main.storyboard */; };
@@ -39,6 +45,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B06F03261E66FBFF005076A2 /* VNSessionLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNSessionLib.h; sourceTree = "<group>"; };
+		B06F03271E66FBFF005076A2 /* VNSessionLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNSessionLib.m; sourceTree = "<group>"; };
+		B06F03291E66FC96005076A2 /* SpecificThemePackgScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecificThemePackgScreen.h; sourceTree = "<group>"; };
+		B06F032A1E66FC96005076A2 /* SpecificThemePackgScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecificThemePackgScreen.m; sourceTree = "<group>"; };
+		B06F032C1E66FCAB005076A2 /* IAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPHelper.h; sourceTree = "<group>"; };
+		B06F032D1E66FCAB005076A2 /* IAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPHelper.m; sourceTree = "<group>"; };
+		B06F032E1E66FCAB005076A2 /* InAppPuchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppPuchaseViewController.h; sourceTree = "<group>"; };
+		B06F032F1E66FCAB005076A2 /* InAppPuchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppPuchaseViewController.m; sourceTree = "<group>"; };
+		B06F03301E66FCAB005076A2 /* InAppRageIAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppRageIAPHelper.h; sourceTree = "<group>"; };
+		B06F03311E66FCAB005076A2 /* InAppRageIAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppRageIAPHelper.m; sourceTree = "<group>"; };
+		B06F03351E66FD3F005076A2 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B06F03361E66FD3F005076A2 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		B071C1391E3716EB005D20F6 /* TestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B071C13D1E3716EB005D20F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B071C1421E3716EE005D20F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -91,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B06F03251E66FBFE005076A2 /* VNSessionLib */ = {
+			isa = PBXGroup;
+			children = (
+				B06F03261E66FBFF005076A2 /* VNSessionLib.h */,
+				B06F03271E66FBFF005076A2 /* VNSessionLib.m */,
+			);
+			path = VNSessionLib;
+			sourceTree = "<group>";
+		};
 		B071C1301E3716EA005D20F6 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +155,17 @@
 		B071C13C1E3716EB005D20F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B06F03351E66FD3F005076A2 /* MBProgressHUD.h */,
+				B06F03361E66FD3F005076A2 /* MBProgressHUD.m */,
+				B06F032C1E66FCAB005076A2 /* IAPHelper.h */,
+				B06F032D1E66FCAB005076A2 /* IAPHelper.m */,
+				B06F032E1E66FCAB005076A2 /* InAppPuchaseViewController.h */,
+				B06F032F1E66FCAB005076A2 /* InAppPuchaseViewController.m */,
+				B06F03301E66FCAB005076A2 /* InAppRageIAPHelper.h */,
+				B06F03311E66FCAB005076A2 /* InAppRageIAPHelper.m */,
+				B06F03291E66FC96005076A2 /* SpecificThemePackgScreen.h */,
+				B06F032A1E66FC96005076A2 /* SpecificThemePackgScreen.m */,
+				B06F03251E66FBFE005076A2 /* VNSessionLib */,
 				B071C17F1E371BFF005D20F6 /* DBManager.h */,
 				B071C1801E371C00005D20F6 /* DBManager.m */,
 				B071C17C1E371A81005D20F6 /* AppDelegate.h */,
@@ -296,12 +334,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B06F03281E66FBFF005076A2 /* VNSessionLib.m in Sources */,
 				B071C1811E371C00005D20F6 /* DBManager.m in Sources */,
 				B071C1441E3716EF005D20F6 /* ViewController.m in Sources */,
 				B071C13E1E3716EB005D20F6 /* main.m in Sources */,
+				B06F03331E66FCAB005076A2 /* InAppPuchaseViewController.m in Sources */,
+				B06F032B1E66FC96005076A2 /* SpecificThemePackgScreen.m in Sources */,
 				B071C17E1E371A81005D20F6 /* AppDelegate.m in Sources */,
 				B071C1781E3717C5005D20F6 /* WebConnection1.m in Sources */,
+				B06F03341E66FCAB005076A2 /* InAppRageIAPHelper.m in Sources */,
+				B06F03371E66FD3F005076A2 /* MBProgressHUD.m in Sources */,
 				B071C17B1E3718D9005D20F6 /* Reachability.m in Sources */,
+				B06F03321E66FCAB005076A2 /* IAPHelper.m in Sources */,
 				B071C1711E37171F005D20F6 /* SearchScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -534,6 +578,7 @@
 				B071C1681E371702005D20F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B071C1691E371702005D20F6 /* Build configuration list for PBXNativeTarget "TestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +587,7 @@
 				B071C16B1E371702005D20F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B071C16C1E371702005D20F6 /* Build configuration list for PBXNativeTarget "TestDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +596,7 @@
 				B071C16E1E371702005D20F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
