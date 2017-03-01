@@ -7,8 +7,6 @@
 //
 
 #import "SearchScreen.h"
-#import "ProfileScreen.h"
-
 @interface SearchScreen ()
 {
     NSInteger index;

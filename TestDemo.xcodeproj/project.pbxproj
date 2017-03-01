@@ -13,6 +13,9 @@
 		B06F03331E66FCAB005076A2 /* InAppPuchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06F032F1E66FCAB005076A2 /* InAppPuchaseViewController.m */; };
 		B06F03341E66FCAB005076A2 /* InAppRageIAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B06F03311E66FCAB005076A2 /* InAppRageIAPHelper.m */; };
 		B06F03371E66FD3F005076A2 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B06F03361E66FD3F005076A2 /* MBProgressHUD.m */; };
+		B06F033F1E66FEB3005076A2 /* AKPayPal.m in Sources */ = {isa = PBXBuildFile; fileRef = B06F033C1E66FEB3005076A2 /* AKPayPal.m */; };
+		B06F03401E66FEB3005076A2 /* Cart_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = B06F033E1E66FEB3005076A2 /* Cart_Model.m */; };
+		B06F03431E66FF13005076A2 /* PaypalPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06F03421E66FF13005076A2 /* PaypalPaymentViewController.m */; };
 		B071C13E1E3716EB005D20F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B071C13D1E3716EB005D20F6 /* main.m */; };
 		B071C1441E3716EF005D20F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B071C1431E3716EF005D20F6 /* ViewController.m */; };
 		B071C1471E3716F1005D20F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B071C1451E3716F1005D20F6 /* Main.storyboard */; };
@@ -57,6 +60,12 @@
 		B06F03311E66FCAB005076A2 /* InAppRageIAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppRageIAPHelper.m; sourceTree = "<group>"; };
 		B06F03351E66FD3F005076A2 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		B06F03361E66FD3F005076A2 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		B06F033B1E66FEB3005076A2 /* AKPayPal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKPayPal.h; sourceTree = "<group>"; };
+		B06F033C1E66FEB3005076A2 /* AKPayPal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKPayPal.m; sourceTree = "<group>"; };
+		B06F033D1E66FEB3005076A2 /* Cart_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cart_Model.h; sourceTree = "<group>"; };
+		B06F033E1E66FEB3005076A2 /* Cart_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cart_Model.m; sourceTree = "<group>"; };
+		B06F03411E66FF13005076A2 /* PaypalPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaypalPaymentViewController.h; sourceTree = "<group>"; };
+		B06F03421E66FF13005076A2 /* PaypalPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaypalPaymentViewController.m; sourceTree = "<group>"; };
 		B071C1391E3716EB005D20F6 /* TestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B071C13D1E3716EB005D20F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B071C1421E3716EE005D20F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -118,6 +127,19 @@
 			path = VNSessionLib;
 			sourceTree = "<group>";
 		};
+		B06F033A1E66FEA5005076A2 /* Paypal */ = {
+			isa = PBXGroup;
+			children = (
+				B06F03411E66FF13005076A2 /* PaypalPaymentViewController.h */,
+				B06F03421E66FF13005076A2 /* PaypalPaymentViewController.m */,
+				B06F033B1E66FEB3005076A2 /* AKPayPal.h */,
+				B06F033C1E66FEB3005076A2 /* AKPayPal.m */,
+				B06F033D1E66FEB3005076A2 /* Cart_Model.h */,
+				B06F033E1E66FEB3005076A2 /* Cart_Model.m */,
+			);
+			name = Paypal;
+			sourceTree = "<group>";
+		};
 		B071C1301E3716EA005D20F6 = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +177,7 @@
 		B071C13C1E3716EB005D20F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B06F033A1E66FEA5005076A2 /* Paypal */,
 				B06F03351E66FD3F005076A2 /* MBProgressHUD.h */,
 				B06F03361E66FD3F005076A2 /* MBProgressHUD.m */,
 				B06F032C1E66FCAB005076A2 /* IAPHelper.h */,
@@ -338,6 +361,7 @@
 				B071C1811E371C00005D20F6 /* DBManager.m in Sources */,
 				B071C1441E3716EF005D20F6 /* ViewController.m in Sources */,
 				B071C13E1E3716EB005D20F6 /* main.m in Sources */,
+				B06F033F1E66FEB3005076A2 /* AKPayPal.m in Sources */,
 				B06F03331E66FCAB005076A2 /* InAppPuchaseViewController.m in Sources */,
 				B06F032B1E66FC96005076A2 /* SpecificThemePackgScreen.m in Sources */,
 				B071C17E1E371A81005D20F6 /* AppDelegate.m in Sources */,
@@ -345,8 +369,10 @@
 				B06F03341E66FCAB005076A2 /* InAppRageIAPHelper.m in Sources */,
 				B06F03371E66FD3F005076A2 /* MBProgressHUD.m in Sources */,
 				B071C17B1E3718D9005D20F6 /* Reachability.m in Sources */,
+				B06F03431E66FF13005076A2 /* PaypalPaymentViewController.m in Sources */,
 				B06F03321E66FCAB005076A2 /* IAPHelper.m in Sources */,
 				B071C1711E37171F005D20F6 /* SearchScreen.m in Sources */,
+				B06F03401E66FEB3005076A2 /* Cart_Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
